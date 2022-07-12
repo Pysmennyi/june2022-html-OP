@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.window {
+    height: 800px;
+    width: 1000px;
+}
+.text {
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+.mainBlock {
+
+    background-color: #2269bb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+height: 200px;
+
+}
+
+.middleBlocs {
+    display: flex;
+    justify-content: space-evenly;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 33.33%;
+     border: 1px solid grey;
+    background-color: #16457a;
+}
+
+.bottomBox {
+    background-color: #2269bb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 350px;
+
+
+}
