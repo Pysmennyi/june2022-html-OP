@@ -25,28 +25,41 @@
     width: 130px;
     height: 50px;
     border-radius: 10%;
-    align-items: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.headerBlue:hover{
+    background-color: white;
+    color: #102b3e;
+    border: 1px solid black;
 }
 
 .headerSearch {
     color: black;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
-    background-color: white;
+font-size: 40px;
     width: 150px;
     height: 50px;
     border-radius: 10%;
     margin-left: 400px;
-    border: 1px solid black;
+
 }
 
-.headerSearch:hover {
-    background-color: #7c7c7c;
+.fa-magnifying-glass:hover {
+
     color: white;
     cursor: pointer;
 }
+.fa-bars:hover {
 
+    color: white;
+    cursor: pointer;
+}
 .content {
     background-color: #102b3e;
     height: 400px;
@@ -73,7 +86,7 @@
 }
 
 .contentBox:hover {
-    background-color: darkblue;
+    background-color: white;
 }
 
 .bottom {
